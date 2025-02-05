@@ -1,0 +1,59 @@
+to check length: str.size()
+to check minimum: min(x,y);
+to check maximum: max(x,y);
+
+Type of functions:
+
+1. Void: Does not Return anything.
+example: void printName() {
+    cout << "Hello Girl!";
+}
+2. Return: Returns a parameter passed by user.
+example: int printSum(int a, int b) {
+    cout << "sum is: " << a + b ;
+    return a + b;
+}
+
+3. Parameterised: 
+example: void printName(string name) {
+    cout << "Hello Girl!" << name;
+}
+
+4. Non-Parameterised: Does not include any parameter.
+
+--------
+
+1. Pass by value:
+--> it takes the copy of the number in the function.
+example:
+void doSomething(int i){
+    cout << i << endl;
+    i = i + 18;
+    cout << i << endl;
+}
+
+int main(){
+    int i = 10;
+    doSomething(i);
+    cout << i << endl;
+    return 0;
+}
+
+2. Pass by Reference:
+--> it takes the original number in function.
+example:
+
+void doSomething(int &i){
+    cout << i << endl;
+    i = i + 18;
+    cout << i << endl;
+}
+
+int main(){
+    int i = 10;
+    doSomething(i);
+    cout << i << endl;
+    return 0;
+}
+
+--> When we pass Array, even without & it will go by Reference only.

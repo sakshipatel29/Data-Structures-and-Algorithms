@@ -1,0 +1,1 @@
+Array can be stored anywhere in Memory Addresses. But , It will always be in Consequtive Manner.
