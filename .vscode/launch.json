@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/sakshipatel29/Desktop/Projects/Data-Structures-and-Algorithms/DSA/C++",
+      "program": "/Users/sakshipatel29/Desktop/Projects/Data-Structures-and-Algorithms/DSA/C++/build/Debug/outDebug"
+    }
+  ]
+}
