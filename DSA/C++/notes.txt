@@ -106,7 +106,38 @@ vector<int>::iterator it = v.rbegin();
 
 v.erase(v.begin()+1)
 v.insert(v.begin() + 1, 2, 100);
-
+v.swap
+v.clear
+v.pop_back
 
 iii. List:
+
+list is same as vector but it give front operations too.
+
+List<int> ls 
+O(logn)
+
+ls.push_back
+ls.emplace_back
+ls.push_front
+ls.emplace_front
+
+deque
+stack
+queue
+priority queue --> max heap
+minimum priority wueue --> min heap
+
+set ---- sorted unique
+multiset ----- sorted
+unordered set ---- unique
+o(1)
+
+Map: Map<int int> mpp--- stores unique keys in sorted order
+
+algorithms:
+
+1. Sort ---> sort(a,a+n) [start included last not]
+
+sort(a,a+n, greater<int>) -- > descending
 
