@@ -1,9 +1,4 @@
-// quick sort: choose a pivot, place it in the correct index and smaller elements on left 
-// and bigger on right.
-//time complexity: O(N * logN)
-//space complexity : O(1)
-
-//sorting in ascending order
+//descending order
 
 #include <iostream>
 #include <vector>
@@ -14,10 +9,10 @@ int fn(vector<int>& arr, int low, int high){
     int i = low;
     int j = high;
     while(i < j){
-        while(arr[i] <= pivot && i < high ){
+        while(arr[i] >= pivot && i < high ){
             i++;
         }
-        while(arr[j] > pivot && j > low){
+        while(arr[j] < pivot && j > low){
             j--;
         }
         if( i < j){
