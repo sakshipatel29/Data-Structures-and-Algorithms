@@ -1,5 +1,6 @@
 // divide & merge
 // time complexity = O(N * logN)
+//space complexity : O(N)
 
 #include <iostream>
 #include <vector>
