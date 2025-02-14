@@ -1,1 +1,6 @@
 Array can be stored anywhere in Memory Addresses. But , It will always be in Consequtive Manner.
+
+
+in function size limit 10^6
+globally it is 10^7
+
