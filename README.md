@@ -74,10 +74,7 @@ This repository contains fundamental concepts and problem-solving techniques in 
 - 🔹 🔄 Trade-offs Between Time and Space Complexity  
 
 ## 🤝 Contributing  
-Contributions are always welcome! If you'd like to add explanations, optimize code, or include new problem-solving approaches, feel free to submit a pull request.  
-
-## 📜 License  
-This repository is open-source and available under the **MIT License**.  
+Contributions are always welcome! If you'd like to add explanations, optimize code, or include new problem-solving approaches, feel free to submit a pull request.   
 
 ---
 
