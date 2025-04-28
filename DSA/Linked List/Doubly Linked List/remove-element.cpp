@@ -91,10 +91,28 @@ Node* RemoveElement(Node* head, int k){
     return head;
 }
 
+void DeleteEl(Node* temp){
+    Node* prev = temp->back;
+    Node* front = temp->next;
+    
+    if(front == NULL){
+        prev->next = nullptr;
+        temp->back = nullptr;
+        delete temp;
+        return;
+    }
+    prev->next = front;
+    front->back = prev;
+    temp->next = temp->back = nullptr;
+    delete temp;
+    return;
+    
+}
+
 int main() {
     vector<int> arr = {12,0,8,7};
     Node* head = ConvertArrayToDLL(arr);
-    head = RemoveElement(head,7);
+    DeleteEl(head->next->next->next);
     PrintDLL(head);
     return 0;
 }
