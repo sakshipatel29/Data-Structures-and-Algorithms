@@ -41,6 +41,9 @@ void PrintDLL(Node* head){
 }
 
 Node* InsertAfterHead(Node* head, int val){
+    if(head == NULL){
+        return new Node(val);
+    }
     Node* front = head->next;
     Node* newNode = new Node(val, front, head);
     head->next = newNode;
@@ -49,6 +52,9 @@ Node* InsertAfterHead(Node* head, int val){
 }
 
 Node* InsertAfterKthelement(Node* head, int k, int val){
+    if(head == NULL){
+        return new Node(val);
+    }
     if(k == 1){
         return InsertAfterHead(head, val);
     }

@@ -41,6 +41,9 @@ void PrintDLL(Node* head){
 }
 
 Node* InsertAfterTail(Node* head, int val){
+    if(head == NULL){
+        return new Node(val);
+    }
     Node* tail = head;
     while(tail->next != NULL){
         tail = tail->next;

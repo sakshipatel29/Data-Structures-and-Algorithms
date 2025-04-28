@@ -49,6 +49,9 @@ Node* InsertAfterHead(Node* head, int val){
 }
 
 Node* InsertAfterNode(Node* head, int el, int val){
+    if(head == NULL){
+        return new Node(val);
+    }
     if(head->data == el){
         return InsertAfterHead(head, val);
     }
