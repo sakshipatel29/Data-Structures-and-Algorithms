@@ -1,3 +1,6 @@
+// Tabulation
+// Time Complexity: O(n)
+// Space Complexity: O(n)
 #include <iostream>
 #include<vector>
 using namespace std;
