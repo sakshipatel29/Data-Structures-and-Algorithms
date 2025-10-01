@@ -3,9 +3,8 @@
 #include <queue>
 using namespace std;
 
-//TC: O(NlogN)
-//SC: O(N)
-
+//TC: O(NlogK)
+//SC: O(K)
 class KthLargest {
     public:
         int k;
