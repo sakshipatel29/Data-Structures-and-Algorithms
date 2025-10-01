@@ -4,7 +4,7 @@
 using namespace std;
 
 // Time Complexity: O(n)
-// Space Complexity: O(n)
+// Space Complexity: O(k)
 
 // Contains Duplicate II
 
